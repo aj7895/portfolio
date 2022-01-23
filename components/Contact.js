@@ -8,7 +8,7 @@ const Contact = () => {
       <h5 className="text-5xl font-medium text-gray-300">Get In Touch</h5>
       <p className=" w-full md:w-[570px] text-gray-500">
         Feel free to contact me,Whether you have a question or just want to say
-        hi, I’ll try my best to get back to you!
+        hi, I will try my best to get back to you!
       </p>
       <button
         onClick={() => router.push("/form")}
@@ -18,7 +18,7 @@ const Contact = () => {
         <span className="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform skew-x-12 bg-red-500 group-hover:bg-red-500 group-hover:-skew-x-12"></span>
         <span className="absolute bottom-0 left-0 hidden w-10 h-20 transition-all duration-100 ease-out transform -translate-x-8 translate-y-10 bg-red-600 -rotate-12"></span>
         <span className="absolute bottom-0 right-0 hidden w-10 h-20 transition-all duration-100 ease-out transform translate-x-10 translate-y-8 bg-red-400 -rotate-12"></span>
-        <span className="relative"> Contact Me</span>
+        <span className="relative">Contact Me</span>
       </button>
 
       <div className="text-gray-500 mt-44">

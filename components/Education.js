@@ -46,7 +46,10 @@ const Education = ({ Education, Certificate }) => {
         <div className="flex">
           <div className={toggleState === 1 ? "w-96 active-content" : "hidden"}>
             {Education.map((item) => (
-              <div className="flex items-center text-gray-500 my-3">
+              <div
+                key={item.id}
+                className="flex items-center text-gray-500 my-3"
+              >
                 <i className="bx bxs-right-arrow text-portfolio-light mr-5"></i>
                 <div className="flex flex-col">
                   <p>{item.degree}</p>
@@ -60,7 +63,10 @@ const Education = ({ Education, Certificate }) => {
             className={toggleState === 2 ? "w-96  active-content" : "hidden"}
           >
             {Certificate.map((item) => (
-              <div className="flex items-center text-gray-500 my-3">
+              <div
+                key={item.id}
+                className="flex items-center text-gray-500 my-3"
+              >
                 <i className="bx bxs-right-arrow text-portfolio-light mr-5"></i>
                 <div className="flex flex-col">
                   <p>{item.course}</p>

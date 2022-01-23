@@ -42,7 +42,10 @@ const Header = () => {
           }
         >
           {LinkData.map((item) => (
-            <li className="list-none py-4 text-gray-200 hover:text-portfolio-light transition duration-200 md:px-4">
+            <li
+              key={item.id}
+              className="list-none py-4 text-gray-200 hover:text-portfolio-light transition duration-200 md:px-4"
+            >
               <span className="text-portfolio-light text-sm px-1">
                 {item.id}.{" "}
               </span>
