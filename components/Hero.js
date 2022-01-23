@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <div
       id="hero"
-      className="h-[calc(100vh-80px)] mt-14 sm:mt-1 relative px-7 md:px-0 flex xl:gap-20 items-center justify-center text-gray-500"
+      className="h-[calc(100vh-80px)] mt-14 sm:mt-1 relative px-7 md:px-0 lg:ml-28 flex xl:gap-20 items-center justify-center text-gray-500"
     >
       {/* left */}
       <div className="px-3 md:px-0 flex flex-col gap-8">
