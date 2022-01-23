@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@layer components {
+  .activetab {
+    @apply bg-[#101526] shadow-md bg-opacity-40 text-portfolio-light border-b-4 md:border-l-8 md:border-b-0 -ml-1 z-50  py-4 px-12 w-40 border-portfolio-light;
+  }
+  .icon {
+    @apply cursor-pointer text-gray-400 hover:text-portfolio-light transition duration-200;
+  }
+
+  .header {
+    @apply flex h-[80px] z-50 border-b-gray-700 md:items-center md:justify-evenly justify-between px-7 py-3 sticky bg-transparent shadow-lg;
+  }
+}
