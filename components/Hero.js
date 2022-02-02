@@ -45,7 +45,7 @@ const Hero = () => {
       <div className=" hidden 2xl:flex relative md:ml-20">
         <img
           className="h-[430px] -mt-8 object-contain hover:-rotate-1 transition duration-700"
-          src="/images/me.svg"
+          src="/images/img.svg"
           alt=""
         />
       </div>

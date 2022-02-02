@@ -1,4 +1,11 @@
-export const OtherData = [
+export const works = [
+  {
+    id: 0,
+    title: "Easyfoods",
+    desc: "Food ordering website using which user can order food online and filter availability and pay using stripe",
+    tech: ["Vs code", "Express", "React", "MongoDb"],
+    link: "https://easyfoods.herokuapp.com/",
+  },
   {
     id: 1,
     title: "Easycars",
@@ -46,18 +53,11 @@ export const OtherData = [
     id: 7,
     title: "Linked In Clone",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor incidunt qui rem ut facilis, id asperiores inventore reprehenderit molestiae laborum commodi quam, voluptatum hic molestias eligendi natus porro eveniet saepe officia, sunt quod voluptate!",
-    tech: ["Vs code", "React", "Firebase", "Javascript"],
+    tech: ["Vs code", "React", "Firebase", "Material Ui"],
     link: "#",
   },
   {
     id: 8,
-    title: "Country List App",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor incidunt qui rem ut facilis, id asperiores inventore reprehenderit molestiae laborum commodi quam, voluptatum hic molestias eligendi natus porro eveniet saepe officia, sunt quod voluptate!",
-    tech: ["Vs code", "Frontend Mentor", "React", "Api", "Javascript"],
-    link: "#",
-  },
-  {
-    id: 9,
     title: "Covid Tracker App",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor incidunt qui rem ut facilis, id asperiores inventore reprehenderit molestiae laborum commodi quam, voluptatum hic molestias eligendi natus porro eveniet saepe officia, sunt quod voluptate!",
     tech: ["Vs code", "React", "Api", "Javascript"],
@@ -65,7 +65,7 @@ export const OtherData = [
   },
 ];
 
-export const EduData = [
+export const eduData = [
   {
     id: 1,
     degree: "Master's In Computer Applications",
@@ -88,7 +88,7 @@ export const EduData = [
   },
 ];
 
-export const CerData = [
+export const cerData = [
   {
     id: 1,
     course: "UI Full Stack",
@@ -115,7 +115,7 @@ export const CerData = [
   },
 ];
 
-export const LinkData = [
+export const links = [
   {
     id: "01",
     text: "About",
@@ -138,7 +138,7 @@ export const LinkData = [
   },
 ];
 
-export const aboutData = [
+export const skills = [
   {
     name: "Html",
   },
@@ -164,6 +164,9 @@ export const aboutData = [
     name: "Node JS",
   },
   {
+    name: "Mongo db",
+  },
+  {
     name: "Next JS",
   },
   {
@@ -180,7 +183,7 @@ export const aboutData = [
   },
 ];
 
-export const HeadingData = [
+export const headings = [
   {
     id: "01",
     text: "About",

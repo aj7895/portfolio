@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import { Heading } from "./index";
-import { LinkData } from "../constant/data";
+import { links } from "../constant/data";
 
 const Education = ({ Education, Certificate }) => {
   // toggling tab
@@ -15,7 +15,7 @@ const Education = ({ Education, Certificate }) => {
       id="exp"
       className="h-[calc(70vh-80px)] px-7 py-10 flex flex-col items-center bg-portfolio-dark"
     >
-      <Heading text={LinkData[1].text} id={LinkData[1].id} />
+      <Heading text={links[1].text} id={links[1].id} />
 
       <div className="flex flex-col md:flex-row gap-20 relative">
         <div className=" hidden md:inline-flex h-[185px] w-[1px] bg-gray-400 absolute" />

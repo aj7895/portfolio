@@ -30,7 +30,7 @@ const Form = () => {
     <div className="min-h-[100vh] overflow-hidden relative">
       <Head>
         <title>Portfolio | Amit P John | Frontend Developer</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/favicon.png" />
         <link
           href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
           rel="stylesheet"
@@ -39,16 +39,11 @@ const Form = () => {
       <div className="absolute left-0 bottom-0 top-0 right-0">
         <div
           onClick={() => router.push("/")}
-          className="absolute left-2 top-3 md:left-10 md:top-7 shadow-md bg-portfolio-dark w-10 h-10 md:w-14 md:h-14 text-xl flex items-center justify-center rounded-full text-red-50 z-50"
+          className="absolute left-2 top-3 md:left-10 md:top-7 shadow-md bg-portfolio-dark w-11 h-11 md:w-12 md:h-12 text-xl flex items-center justify-center rounded-full text-red-50 z-50"
         >
-          <i className="bx bxs-left-arrow"></i>
+          <i className="bx bx-arrow-back" />
         </div>
-        <img
-          className="cover h-full w-full"
-          objectFit="contain"
-          src="/images/bg.jpg"
-          alt=""
-        />
+        <img className="h-full w-full" src="/images/bg.jpg" alt="" />
         <div className="absolute left-0 bottom-0 top-0 right-0 bg-portfolio-dark opacity-95" />
       </div>
       <div className="absolute left-0 bottom-0 top-0 right-0 flex-col lg:flex-row flex gap-14 items-center justify-center">

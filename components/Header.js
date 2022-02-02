@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { LinkData } from "../constant/data";
+import { links } from "../constant/data";
 
 const Header = () => {
   const [hide, setHide] = useState(false);
@@ -41,7 +41,7 @@ const Header = () => {
               : "hidden md:flex"
           }
         >
-          {LinkData.map((item) => (
+          {links.map((item) => (
             <li
               key={item.id}
               className="list-none py-4 text-gray-200 hover:text-portfolio-light transition duration-200 md:px-4"

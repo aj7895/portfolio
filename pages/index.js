@@ -11,11 +11,9 @@ import {
 } from "../components/index";
 
 // data
-import { HeadingData, EduData, CerData } from "../constant/data";
+import { headings, eduData, cerData } from "../constant/data";
 
 export default function Home() {
-  console.log(HeadingData);
-
   const [showScroll, setShowScroll] = useState(false);
 
   const controlNavbar = () => {
@@ -62,8 +60,8 @@ export default function Home() {
         <div className="w-[calc(100vw)] overflow-hidden flex flex-col gap-40 sm:gap-20 lg:gap-0">
           <Hero />
           <Work />
-          <About data={HeadingData} />
-          <Education Education={EduData} Certificate={CerData} />
+          <About data={headings} />
+          <Education Education={eduData} Certificate={cerData} />
           <Contact />
         </div>
         {/* right */}
@@ -79,7 +77,7 @@ export default function Home() {
             href="#"
             className=" fixed right-3 bottom-14 bg-portfolio-blue text-gray-50 shadow-2xl h-14 flex items-center justify-center rounded-full w-14"
           >
-            <i className="bx bxs-up-arrow"></i>
+            <i className="bx bx-up-arrow" />
           </a>
         )}
       </main>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { HeadingData, OtherData } from "../constant/data";
+import { headings, works } from "../constant/data";
 import { Heading } from "./index";
 
 const Work = () => {
@@ -21,9 +21,9 @@ const Work = () => {
       id="work"
       className="md:h-[calc(1400px-80px)] my-4 px-7 py-10 flex flex-col justify-center items-center bg-portfolio-dark"
     >
-      <Heading text={HeadingData[3].text} />
+      <Heading text={headings[3].text} />
       <div className="flex flex-col md:flex-row flex-wrap md:w-[1500px] justify-center">
-        {OtherData.slice(0, visible).map((item, index) => (
+        {works.slice(0, visible).map((item, index) => (
           <div
             className="bg-[ hsl(216, 50%, 16%)] shadow-lg w-96 h-80 m-5 rounded-md px-7 hover:translate-y-[-20px] transition duration-200"
             key={index}

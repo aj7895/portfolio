@@ -2,7 +2,7 @@
 import { Heading } from "./index";
 
 // data
-import { aboutData } from "../constant/data";
+import { skills } from "../constant/data";
 
 const About = ({ data }) => {
   return (
@@ -24,7 +24,7 @@ const About = ({ data }) => {
         </p>
 
         <div className="flex flex-wrap my-4">
-          {aboutData.map(({ name }) => (
+          {skills.map(({ name }) => (
             <p
               key={name}
               className=" mr-2 mt-4 bg-gray-100 rounded-full px-3 py-1 text-center text-gray-900 font-semibold text-sm"
