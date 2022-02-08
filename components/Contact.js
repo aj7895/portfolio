@@ -1,7 +1,9 @@
-import { useRouter } from "next/router";
+import { useState } from "react";
+import ContactForm from "./ContactForm";
 
 const Contact = () => {
-  const router = useRouter();
+  const [show, setShow] = useState(false);
+
   return (
     <div id="contact" className="flex flex-col px-7 gap-7 my-7 items-center">
       <p className="text-portfolio-light">04. What's Next?</p>
@@ -11,7 +13,7 @@ const Contact = () => {
         hi, I will try my best to get back to you!
       </p>
       <button
-        onClick={() => router.push("/form")}
+        onClick={() => setShow(true)}
         className="relative mt-7 px-5 py-2 font-medium text-white group"
       >
         <span className="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform translate-x-0 -skew-x-12 bg-red-400 group-hover:bg-red-700 group-hover:skew-x-12"></span>
@@ -37,6 +39,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <ContactForm show={show} setShow={setShow} />
     </div>
   );
 };

@@ -1,9 +1,6 @@
 const Hero = () => {
   return (
-    <div
-      id="hero"
-      className="h-[calc(100vh-80px)] mt-14 sm:mt-1 relative px-7 md:px-0 lg:ml-28 flex xl:gap-20 items-center justify-center text-gray-500"
-    >
+    <div className="h-[calc(100vh-80px)] pt-28 lg:pt-20 xl:pt-40 sm:mt-1 relative px-5 md:px-0 flex xl:gap-20 mx-auto text-gray-500">
       {/* left */}
       <div className="px-3 md:px-0 flex flex-col gap-8">
         <p className="text-portfolio-light text-[16px] md:text-[20px] md:-mb-5">
@@ -42,7 +39,7 @@ const Hero = () => {
         </div>
       </div>
       {/* right */}
-      <div className=" hidden 2xl:flex relative md:ml-20">
+      <div className=" hidden 2xl:flex relative">
         <img
           className="h-[430px] -mt-8 object-contain hover:-rotate-1 transition duration-700"
           src="/images/img.svg"

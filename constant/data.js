@@ -197,6 +197,7 @@ export const headings = [
     text: "Some of my projects",
   },
   {
-    text: "Some other projects",
+    id: "04",
+    text: "Some featured projects",
   },
 ];

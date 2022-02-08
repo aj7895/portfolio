@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { useState, useEffect } from "react";
+import ContactForm from "../components/ContactForm";
 // components
 import {
   Header,
