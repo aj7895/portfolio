@@ -21,7 +21,7 @@ a {
 
 @layer components {
   .activetab {
-    @apply bg-[#101526] shadow-md bg-opacity-40 text-portfolio-light border-b-4 md:border-l-8 md:border-b-0 -ml-1 z-50  py-4 px-12 w-40 border-portfolio-light;
+    @apply bg-[#101526] shadow-md bg-opacity-40 text-portfolio-light border-b-4 md:border-l-8 md:border-b-0 -ml-1 z-50 py-4 px-8 md:w-40 border-portfolio-light;
   }
   .icon {
     @apply cursor-pointer text-gray-400 hover:text-portfolio-light transition duration-200;

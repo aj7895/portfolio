@@ -60,7 +60,7 @@ const Header = () => {
           type="button"
           className="mt-2 hidden text-gray-900 bg-portfolio-light hover:bg-[#CDA17D]/10 hover:text-white focus:ring-4 focus:ring-[#F7BE38]/50 font-medium rounded-sm text-sm px-5 py-2.5 text-center md:inline-flex items-center dark:focus:ring-[#F7BE38]/50 mr-2 mb-2"
         >
-          <a href="https://drive.google.com/uc?export=download&id=1anyP8Tt29F5N61hHo5pgpjwihin9kftC">
+          <a href="https://drive.google.com/uc?export=download&id=1AvJq3jS3WCQS43V7EpkBRgnZj656uduD">
             Check out my resume
           </a>
         </button>

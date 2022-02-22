@@ -47,7 +47,7 @@ export default function Home() {
       <Header />
       <main className="flex justify-center relative bg-portfolio-dark">
         {/* left */}
-        <div className=" hidden w-[180px] fixed lg:flex flex-col bottom-0 left-20">
+        <div className="hidden fixed lg:flex flex-col bottom-0 left-20">
           <div className="flex flex-col gap-3 text-2xl mb-8">
             <p className="bx bxl-github icon"></p>
             <p className="bx bxl-instagram icon"></p>
@@ -58,7 +58,7 @@ export default function Home() {
           <div className="w-[1px] bg-gray-400 h-48 ml-2" />
         </div>
         {/* middle */}
-        <div className="w-[calc(100vw)] overflow-hidden flex flex-col gap-40 sm:gap-20 lg:gap-0">
+        <div className="overflow-hidden mx-auto w-[100vw] flex flex-col gap-40 sm:gap-20 lg:gap-0">
           <Hero />
           <Work />
           <About data={headings} />
@@ -66,7 +66,7 @@ export default function Home() {
           <Contact />
         </div>
         {/* right */}
-        <div className="hidden fixed w-[180px] lg:flex flex-col bottom-0 right-2 items-center">
+        <div className="hidden fixed lg:flex flex-col bottom-0 right-2 items-center">
           <p className="text-gray-400 text-md rotate-90 tracking-widest mb-24">
             amit.john@aol.com
           </p>

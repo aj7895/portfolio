@@ -20,7 +20,7 @@ const Education = ({ Education, Certificate }) => {
       <div className="flex flex-col md:flex-row gap-20 relative">
         <div className=" hidden md:inline-flex h-[185px] w-[1px] bg-gray-400 absolute" />
         {/* tab */}
-        <div className="flex flex-row md:flex-col gap-10">
+        <div className="flex flex-row md:flex-col mx-auto gap-8">
           <button
             className={toggleState === 1 ? "activetab" : "text-gray-300"}
             onClick={() => toggleTab(1)}
@@ -48,7 +48,7 @@ const Education = ({ Education, Certificate }) => {
             {Education.map((item) => (
               <div
                 key={item.id}
-                className="flex items-center text-gray-500 my-3"
+                className="flex items-center px-5 md:px-0  text-gray-500 my-3"
               >
                 <i className="bx bxs-right-arrow text-portfolio-light mr-5"></i>
                 <div className="flex flex-col">
@@ -65,7 +65,7 @@ const Education = ({ Education, Certificate }) => {
             {Certificate.map((item) => (
               <div
                 key={item.id}
-                className="flex items-center text-gray-500 my-3"
+                className="flex items-center px-5 md:px-0 text-gray-500 my-3"
               >
                 <i className="bx bxs-right-arrow text-portfolio-light mr-5"></i>
                 <div className="flex flex-col">
@@ -79,7 +79,7 @@ const Education = ({ Education, Certificate }) => {
           <div
             className={toggleState === 3 ? "content  active-content" : "hidden"}
           >
-            <p className="w-96 text-gray-500">
+            <p className="w-96 px-2 md:px-0 text-gray-500">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos sed
               nostrum rerum laudantium totam unde adipisci incidunt modi alias!
               Accusamus in quia odit aspernatur provident et ad vel distinctio
